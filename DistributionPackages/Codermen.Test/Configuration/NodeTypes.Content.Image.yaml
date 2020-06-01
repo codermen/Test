@@ -1,0 +1,8 @@
+'Codermen.Test:Content.Image':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Codermen.Test:Mixin.Image': true
+  ui:
+    label: Image
+    icon: icon-picture
+    position: 300

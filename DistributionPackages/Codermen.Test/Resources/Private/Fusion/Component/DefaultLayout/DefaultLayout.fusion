@@ -1,0 +1,9 @@
+prototype(Codermen.Test:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <Codermen.Test:Component.Header />
+        {props.content}
+        <Codermen.Test:Component.Footer />
+    `
+}

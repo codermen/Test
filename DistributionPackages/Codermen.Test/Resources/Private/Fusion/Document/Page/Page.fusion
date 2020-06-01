@@ -1,0 +1,13 @@
+prototype(Codermen.Test:Document.Page) < prototype(Codermen.Test:Document.AbstractPage) {
+    body.content = Neos.Fusion:Component {
+        main = Neos.Neos:ContentCollection {
+            nodePath = 'main'
+        }
+
+        renderer = afx`
+            <main class="main">
+                {props.main}
+            </main>
+        `
+    }
+}
